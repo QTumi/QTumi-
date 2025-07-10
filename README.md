@@ -18,7 +18,7 @@ This is mathematically equivalent to the **Max-Cut** problem on a weighted graph
 
 ### 1. Graph Construction
 - Nodes represent **Hydro dams** and **Townships**
-- Edges are weighted by estimated **distances** between nodes (used as proxy for infrastructure cost)
+- Edges are weighted by estimated **distances** between nodes, with factors such as energy supply and demand being taken into consideration (used as proxy for infrastructure cost)
 
 ### 2. Max-Cut Formulation
 - Problem encoded into a **Quadratic Program** using Qiskit’s `Maxcut` class
